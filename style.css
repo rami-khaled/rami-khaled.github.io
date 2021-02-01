@@ -1,5 +1,7 @@
 body{
-    background-color: rgba(0, 0, 0, 0.883);
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
@@ -13,8 +15,6 @@ ul{
     list-style: none;
     display: flex;
     line-height: 35px;
-    width: 100%;
-    margin-left: 100px; 
 }
 
 li{
@@ -24,9 +24,16 @@ li{
 #nav-bar{
     width: 100%;
     height: 60px;
-    background-color: #862eeb4f;
-    display: block;
+    background-color: #043a5d;
+    display: flex;
 }
+
+nav{
+    width: 100%;
+    position: fixed;
+}
+
+
 a{
     text-decoration: none;
     font-size: 17pt;
@@ -40,7 +47,11 @@ a:hover{
     font-size: 18pt;
 }
 
-svg{
-    height: 35px;
-    margin-left: 0;
+
+
+#content{
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 0px auto;
 }
