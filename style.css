@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(0, 0, 0, 0.883);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    line-height: 35px;
+    width: 100%;
+    margin-left: 100px; 
+}
+
+li{
+    padding: 10px;
+}
+
+#nav-bar{
+    width: 100%;
+    height: 60px;
+    background-color: #862eeb4f;
+    display: block;
+}
+a{
+    text-decoration: none;
+    font-size: 17pt;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    color: white;
+    text-shadow: white;
+}
+a:hover{
+    color: black;
+    font-size: 18pt;
+}
+
+svg{
+    height: 35px;
+    margin-left: 0;
+}
